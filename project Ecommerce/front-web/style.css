@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: orange;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.logo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .bx {
+  font-size: 3rem;
+  color: rgb(13, 188, 25);
+}
+
+div span i {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.logo h1 {
+  width: 700px;
+  text-align: center;
+  margin-left: 200px;
+  font-size: 2.5em;
+  margin-top: 2rem;
+}
+
+.logo p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.wrap h1 {
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.wrap .input_bx {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_bx input {
+  position: relative;
+  padding: 15px;
+  padding-right: 20rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid black;
+}
+
+.input_bx .bx_1 {
+  position: absolute;
+  font-size: 25px;
+  padding-left: 430px;
+  color: black;
+}
+
+.wrap .remember {
+  text-align: center;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 31rem;
+  margin-left: 20rem;
+}
+
+.remember a {
+  text-decoration: none;
+  color: black;
+}
+
+.remember a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.remember label {
+  padding-right: 249px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn a {
+  padding: 12px 222px;
+  outline: none;
+  border: none;
+  background: rgb(5, 130, 24);
+  border-radius: 40px;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.btn a:hover {
+  background: rgb(0, 83, 0);
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.letter h2 {
+  padding: 0 10px;
+  font-size: 1.1rem;
+}
+
+.letter a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.letter a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 100px;
+}
+
+.icon .bx2 {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.icon .bx3 {
+  font-size: 2.5rem;
+  color: rgb(0, 121, 34);
+}
+
+.icon .bx4 {
+  font-size: 2.5rem;
+  color: rgb(0, 204, 255);
+}
+
+.head_two {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo_two {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.logo_two p {
+  padding-top: 10px;
+  font-size: 1.1rem;
+}
+
+.logo_two img {
+  width: 800px;
+  border-radius: 8px;
+  margin-top: 30px;
+  padding-top: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 50px rgb(62, 62, 62);
+}
+
+.sec_icon {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card_one {
+  width: 500px;
+  height: 500px;
+}
+
+.card_one .b1 {
+  color: rgb(26, 106, 126);
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.card_one h2 {
+  font-size: 1.2rem;
+}
+
+.card_one p {
+  padding-top: 6px;
+  width: 300px;
+  font-size: 12px;
+  margin-left: 35px;
+}
+
+.card_two {
+  width: 500px;
+  height: 500px;
+}
+
+.card_two .b2 {
+  color: rgb(0, 90, 224);
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.card_two h2 {
+  font-size: 1.2rem;
+}
+
+.card_two p {
+  padding-top: 6px;
+  width: 300px;
+  font-size: 12px;
+  margin-left: 35px;
+}
+
+.card_three {
+  width: 500px;
+  height: 500px;
+}
+
+.card_three .b3 {
+  color: rgb(255, 123, 0);
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.card_three h2 {
+  font-size: 1.2rem;
+}
+
+.card_three p {
+  padding-top: 6px;
+  width: 300px;
+  font-size: 12px;
+  margin-left: 35px;
+}
+
+.sec_three {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.line {
+  margin-top: 190px;
+  border-bottom: 2px solid rgb(96, 96, 96);
+}
+
+.line h2 {
+  padding: 30px;
+  text-align: center;
+  font-size: 2.4rem;
+  border-bottom: 2px solid rgb(96, 96, 96);
+}
+
+.line img {
+  margin-top: 20px;
+  width: 250px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.line .img_product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img_product > img {
+  box-shadow: 0 0 10px rgb(227, 12, 255);
+  cursor: pointer;
+}
+
+.text_head_product {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text_head_product .text_product {
+  width: 500px;
+}
+
+.text_product h3 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.text_product p {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 600;
+}
+
+.start_btn {
+  margin-left: 30rem;
+}
+
+.start_btn button {
+  outline: none;
+  border: none;
+  background: rgb(5, 130, 24);
+  border-radius: 40px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.start_btn button:hover {
+  background: rgb(0, 83, 0);
+}
+
+.start_btn .x1 {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.start_pro {
+  padding: 15px 30px;
+  font-size: 1rem;
+  margin-top: 50px;
+}
+
+.sec_four {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sec_four h3 {
+  text-align: center;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.sec_four .x2 {
+  font-size: 2.8rem;
+}
+
+.q_one {
+  padding-top: 4rem;
+  cursor: pointer;
+  border-bottom: 1.2px solid rgb(0, 228, 46);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.q_one h2 {
+  font-size: 1.2rem;
+}
+
+.q_one .x3 {
+  font-size: 1.4rem;
+}
+
+.q_one .x4 {
+  font-size: 2rem;
+}
+
+.term {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 9rem;
+}
+
+.term h2 a {
+  font-size: 1rem;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.term h2 a:hover {
+  color: green;
+  text-decoration: underline;
+}
